@@ -1,1 +1,426 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding:0;
+    margin: 0;
+}
+header img{
+    height: 100px;
+    width: 300px;
+}
+
+.langunle a{
+    border: 1px solid black;
+    border-radius: 0px;
+}
+
+header a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    margin-right: 20px;
+    border-radius: 15px;
+    margin-left: 30px;
+    float: right;
+    margin-top: 10px;
+    transition: 0.3s;
+}   
+
+header a:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+header button{
+    position: relative;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    margin-right: 20px;
+    border-radius: 15px;
+    margin-left: 50px;
+    float: right;
+    margin-top: 10px;
+    height: 40px;
+
+}
+
+header p{
+    display: flex;
+    text-align: center;
+    opacity: 0.5;
+    bottom: 10px;
+}
+
+header{
+    margin-bottom: 100px;
+}
+
+
+.catalog a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    border: 1px solid rgb(0, 0, 0);
+   
+}
+
+.catalog button{
+    margin-top: 10px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: 40px;
+    transition: 0.3s;
+    margin-bottom: 10px;
+    
+}
+
+.catalog button:hover{
+    -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.Brend{
+    display: flex;
+    transition: 0.3s;
+
+}
+
+.Brend a{
+    transition: 0.3s;
+}
+
+.Brend a:hover{
+    -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+
+.Brend img{
+    width: 100px;
+    height: 50px;
+    margin-left: 46px;
+}
+
+.conteiner h1{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+
+
+.conteiner button{
+    margin: 69px;
+    border-radius: 20px;
+    border: 1px solid white;
+    width: 161px;  
+    height: 261px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+    transition: 0.3s;
+}
+
+.conteiner button:hover{
+    border: 1px solid red;             
+    transform: scale(1.2);
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.358), 0 2px 5px rgba(0, 0, 0, 0.2);
+    
+}
+
+.conteiner button img{
+    height: 150px;
+    width: 150px;
+    
+}
+
+
+
+
+.conteiner-2 h1{
+    text-align: center;
+    color: rgb(103, 103, 103);
+}
+
+.school{
+    display: flex;
+    justify-content: space-around;
+}
+
+.school img{
+    height: 250px;
+    width: 350px;
+}
+
+.school button{
+    height: 360px;
+    width: 350px;
+    border: 0px solid;
+    background-color: white;
+}
+
+.school button h2{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.school button p{
+    font-size: 15px;
+}
+
+.data{
+    float: left;
+    margin-left: 30px;
+    opacity: 0.5;
+}
+
+.kalendare1 img{
+    display: flex;
+    position: absolute;
+    margin-right: 16px;
+    margin-top: 4px;
+    width: 35px;
+    height: 25px;
+    opacity: 0.5;
+}
+
+.kalendare2 img{
+    display: flex;
+    position: absolute;
+    margin-right: 16px;
+    margin-top: 4px;
+    width: 35px;
+    height: 25px;
+    opacity: 0.5;
+}
+
+.kalendare3 img{
+    display: flex;
+    position: absolute;
+    margin-right: 16px;
+    margin-top: 4px;
+    width: 35px;
+    height: 25px;
+    opacity: 0.5;
+}
+
+.school a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+.school a:hover{
+    transform: scale(1.2);
+    color: red;
+}
+
+
+.blog button{
+    margin-left: 700px;
+    margin-top: 170px;
+    border: 1px solid;
+    background-color: rgb(61, 61, 61);
+    border-radius: 5px;
+    height: 40px;
+    text-decoration: none;
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+    transition: 0.3s;
+    cursor: pointer;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.blog button:hover{
+    background-color: red;
+    border: 1px solid red;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.522), 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.blog a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+}
+
+.blog h1{
+    margin-top: 6px;
+    display: flex;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.horizontal-line{
+    border-top: 1px solid #a2a2a2;
+    margin: 20px 0;
+}
+
+.conteiner-3{
+    text-align: center;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.conteiner-3 button{
+    position: absolute;
+    left: 200px;
+    top: 1600px;
+    height: 200px;
+    width: 1150px;
+    background-color: rgb(255, 255, 255);
+    border: 0px solid;
+   
+}
+
+.conteiner-3 p{
+    font-size: 20px;
+}
+
+footer{
+    display: block;
+    position: absolute;
+    bottom: -1250px;
+    background-color: #cecece;
+    width: 100%;
+    
+}
+
+.baner img{
+    width: max-content;
+}
+   
+
+.dcshoes img{
+    display: flex;
+    width: 350px;
+    height: 350px;
+    margin-left: 600px;
+}
+
+.Thrasher img{
+    display: flex;
+    width: 350px;
+    height: 550px;
+    margin-left: 600px;
+}
+
+.Thrasher p{
+    font-size: 20px;
+}
+
+.spitfear img{
+    display: flex;
+    width: 350px;
+    height: 350px;
+    margin-left: 600px;
+}
+
+.spitfear p{
+    font-size: 20px;
+}
+
+.registration-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.registration-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.registration-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.registration-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.registration-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.registration-form button:hover {
+    background-color: #45a049;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+}
+
+.buttonmancloth {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;  
+    
+}
+
+.mancloth-header{
+    background-color: #4278ff;
+    color: #ffffff;
+    padding: 30px;
+    font-weight: 700;
+}
+
+.mancloth-header a{
+    color: #ffffff;
+}
+
+
+.buttonmancloth img{
+    width: 220px;
+
+}
+
+.buttonmancloth h3{
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.blok2{
+    padding-top: 30px;
+}
+
+.block1 img{
+    width: 500px;
+    height: 500px;
+
+}
 
